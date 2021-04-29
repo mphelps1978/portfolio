@@ -12,8 +12,12 @@ import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
+// Images
 import profilePic from "./images/profile.jpg"
-
+import GameOfLife from "./images/gol.png"
+import Tally from "./images/tallyAI.png"
+import cTracker from "./images/ctracker.png"
+import Firebase from "./images/firebase.png"
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -44,8 +48,7 @@ export default {
       para:
         "TallyAI is an innovataive tool for business owners to see how they stack up against the competition.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: Tally,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/mphelps1978/tally-ai-fe",
     },
@@ -54,8 +57,7 @@ export default {
       para:
         "What tool would be useful without an API that leverages all the data into one package?", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: Tally,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/mphelps1978/tally-ai-be",
     },
@@ -64,8 +66,7 @@ export default {
       para:
         "A simple social networking API built in Firebase Functions", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: Firebase,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/mphelps1978/social-clone-functions",
     },
@@ -74,8 +75,7 @@ export default {
       para:
         "A senior project at Lambda School - Simulation of Cellular Automata or \"when a cell lives, another dies \" ", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: GameOfLife,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/mphelps1978/game-of-life",
     },
@@ -84,8 +84,7 @@ export default {
       para:
         "Track trends of the CoronaVirus globally", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: cTracker,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/mphelps1978/pf-project-corona-tracker",
     },

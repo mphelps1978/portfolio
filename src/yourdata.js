@@ -8,9 +8,9 @@ import codeIcon from "./images/code.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+import linkedInIcon from "./images/iconmonstr-linkedin-3.svg"
+import twitterIcon from "./images/iconmonstr-twitter-4.svg"
+import fbIcon from "./images/iconmonstr-facebook-4.svg"
 
 // Images
 import profilePic from "./images/profile.jpg"
@@ -154,7 +154,11 @@ export default {
   contactSubHeading: "Let me show you what I can do",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "mphelps1978" },
+    { img: githubIcon, url: "https://www.github.com/mphelps1978" },
+    { img: linkedInIcon, url: "https://www.linkedin.com/in/michael-phelps1978" },
+    { img: twitterIcon, url: "https://www.twitter.com/psybermind" },
+    { img: githubIcon, url: "https://www.github.com/mphelps1978" },
+    { img: fbIcon, url: "https://www.facebook.com/phelpswebdev" },
 
   ],
 
